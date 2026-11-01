@@ -1,0 +1,172 @@
+:root {
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 32px;
+    --space-xl: 64px;
+}
+
+body {
+max-width:100%;
+margin:0;
+padding:0;
+overflow-x:hidden;
+background-color: #fbfedb;
+font-size: 21px;
+color:black;
+font-family:'Courier New', Courier, monospace;
+}
+* {
+    box-sizing: border-box;
+}
+.paragraph-1 {
+  background-color:#76ba83;
+  width: 100%;
+  max-width: 300px;
+  margin: 30px auto;
+  border-width: 5px;
+  border-color:black;
+  border-style:solid;
+  padding: 10px;
+  text-align:center;
+
+}
+.header-1 {
+    background-color:#76ba83;
+    width:100%;
+    max-width:500px;
+    height:50px;
+    text-align:center;
+    margin: 10px auto;
+}
+.header-2 {
+    background-color:#76ba83;
+    width:100%;
+    max-width:500px;
+    height:50px;
+    text-align: center;
+    margin: 10px auto;
+}
+.header-3 {
+    background-color:#76ba83;
+    width:100%;
+    max-width:500px;
+    height:50px;
+    text-align: center;
+    margin: 10px auto;
+}
+a:link {
+    color:#76ba83;
+}
+a:visited {
+    color:#366940;
+}
+a:hover {
+    color:#a4e4b0
+}
+a:active {
+    color:#38b34e
+}
+#image {
+   width:calc(100% - 20px); 
+   max-width: 500px;
+   height:auto;
+   margin: 10px auto;
+   border-style: solid;
+   border-color: black;
+   border-width: 5px;
+   display: block;
+}
+#image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    margin: 10px auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-width: 500px;
+}
+.nav-list li {
+    flex-grow: 0;
+    flex-shrink: 1;
+    text-align: center;
+}
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    margin: 10px auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-width: 500px;
+}
+.hobbies li {
+    flex-grow: 0;
+    flex-shrink: 1;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+/* =============================================================================
+PROJECTS Page Specifics
+============================================================================ */
+.portfolio-grid {
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+    @media (min-width: 1200px) {
+        .portfolio-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }   
+    @media (min-width: 768px) {
+        .portfolio-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }   
+.portfolio-card-1, .portfolio-card-2, .portfolio-card-3 {
+    background-color: #76ba83;
+    border: 5px solid black;
+    padding: 20px;
+    text-align: center;
+}
+   
+/* =============================================================================
+ABOUT Page Specifics
+============================================================================ */
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skills {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+   
+@media (min-width: 768px) {
+    body {
+        width: auto;
+        padding: 5px 15px;
+        font-size: 24px;
+        text-align: center;
+    }
+}
