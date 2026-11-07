@@ -48,7 +48,7 @@ footer {
     text-align:center;
     margin: 10px auto;
 }
-.header-2 {
+.welcome {
     background-color:#76ba83;
     width:100%;
     max-width:500px;
@@ -65,16 +65,18 @@ footer {
     margin: 10px auto;
 }
 .paragraph-2 {
-    width:100%;
-    max-width:500px;
+    width: 100%;
+    max-width: 500px;
     margin: 10px auto;
     font-size: 22px;
+    text-align: left;
 }
 .Current-Blurb {
-    width:100%;
-    max-width:500px;
+    width: 100%;
+    max-width: 500px;
     margin: 10px auto;
     font-size: 22px;
+    text-align: left;
 }
 a:link {
     color:#366940;
