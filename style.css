@@ -66,9 +66,11 @@ footer {
 }
 .paragraph-2 {
     font-size: 22px;
+    text-align: left;
 }
 .Current-Blurb {
     font-size: 22px;
+    text-align: left;
 }
 a:link {
     color:#366940;
