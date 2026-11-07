@@ -19,6 +19,14 @@ font-family:'Courier New', Courier, monospace;
 * {
     box-sizing: border-box;
 }
+footer {
+    width:100%;
+    max-width:500px;
+    height:50px;
+    text-align:center;
+    margin: 10px auto;
+    font-size: 18px;
+}
 .paragraph-1 {
   background-color:#76ba83;
   width: 100%;
@@ -55,6 +63,12 @@ font-family:'Courier New', Courier, monospace;
     height:50px;
     text-align: center;
     margin: 10px auto;
+}
+.paragraph-2 {
+    font-size: 22px;
+}
+.Current-Blurb {
+    font-size: 22px;
 }
 a:link {
     color:#366940;
@@ -101,27 +115,7 @@ a:active {
     flex-shrink: 1;
     text-align: center;
 }
-.hobbies {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
 
-    margin: 10px auto;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-    max-width: 500px;
-}
-.hobbies li {
-    flex-grow: 0;
-    flex-shrink: 1;
-    text-align: center;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-}
 /* =============================================================================
 PROJECTS Page Specifics
 ============================================================================ */
@@ -161,6 +155,27 @@ ABOUT Page Specifics
     padding: 0;
     margin: 0;
     text-align: center;
+}
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    margin: 10px auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-width: 500px;
+}
+.hobbies li {
+    flex-grow: 0;
+    flex-shrink: 1;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
    
 @media (min-width: 768px) {
