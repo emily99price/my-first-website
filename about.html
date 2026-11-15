@@ -33,6 +33,34 @@
                 </ul>
         </section>
     </main>
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Send a Message</h2>
+            <p>Fields marked with <span aria-hidden="true">*</span><span class="sr-only">an asterisk</span> are required.</p>
+            <form id="contact-form" action="#" method="post" novalidate>
+                <fieldset>
+                    <legend>Your Contact Information</legend>
+                    <div class="Contact-Info">
+                        <label for="full-name">Full Name <span aria-hidden="true">*</span></label>
+                        <input type="text" id="full-name" name="full-name" required aria-required="true" aria-describedby="name-error">
+                        <span class="error-message" id="name-error" role="alert"></span>
+                    </div>
+
+                    <div class="Contact-Info">
+                        <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                        <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-error">
+                        <span class="error-message" id="email-error" role="alert"></span>
+                    </div>
+                </fieldset>
+                <div class="Contact-Info">
+                    <label for="message">Message <span aria-hidden="true">*</span></label>
+                    <textarea id="message" name="message" rows="5" required aria-required="true" aria-describedby="message-error"></textarea>
+                    <span class="error-message" id="message-error" role="alert"></span>
+                </div>
+
+                <button type="submit">Send Message</button>
+                <p id="form-status" class="status-message" role="status" aria-live="polite"></p>
+            </form>
+        </section>
     <footer>
         <p>&copy; 2026 Emily Price</p>
     </footer>
