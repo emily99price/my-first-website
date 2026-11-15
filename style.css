@@ -151,10 +151,10 @@ PROJECTS Page Specifics
 .portfolio-grid p {
     font-size: 18px;
 }
-.section >h3 + p {
+.portfolio-name-description p {
     font-size: 18px;
-    text-align: center;
 }
+
    
 /* =============================================================================
 ABOUT Page Specifics
