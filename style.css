@@ -192,7 +192,32 @@ ABOUT Page Specifics
     border-color: black;
     border-width: 1px;
 }
-   
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    text-align: center;
+}
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 3px solid #2b59c3;
+    outline-offset: 2px;
+}
+.error-message {
+    color: #b00020;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 0.35rem;
+    min-height: 1.2em;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
 @media (min-width: 768px) {
     body {
         width: auto;
