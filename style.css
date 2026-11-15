@@ -148,6 +148,13 @@ PROJECTS Page Specifics
     padding: 20px;
     text-align: center;
 }
+.portfolio-grid p {
+    font-size: 18px;
+}
+.section >h3 + p {
+    font-size: 18px;
+    text-align: center;
+}
    
 /* =============================================================================
 ABOUT Page Specifics
